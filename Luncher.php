@@ -1,7 +1,7 @@
 <?php
 
-define('BOT_TOKEN', '209166752:AAEEfDfkK5DhGjcxU3Zsb-QJnPpeUzNk3ps');
-define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
+define('BOT_TOKEN', '264810245:AAEC0UxbOOBTVr9rXrl84LpevAxb6pkflsg');
+define('API_URL', 'https://api.telegram.org/bot264810245:AAEC0UxbOOBTVr9rXrl84LpevAxb6pkflsg');
 
 function apiRequestWebhook($method, $parameters) {
   if (!is_string($method)) {
@@ -120,7 +120,7 @@ function processMessage($message) {
   if (isset($message['text'])) {
     // incoming text message
     $text = $message['text'];
-    $admin = 32347781;
+    $admin = 260555848;
     $matches = explode(' ', $text);
     $substr = substr($text, 0,7 );
     if (strpos($text, "/start") === 0) {
@@ -132,11 +132,11 @@ function processMessage($message) {
 `123456789:ABCDE1FGHIJ5KLMNO5PQRS`
 
 
-کانلا ما  👈        [PmResan_RBot](https://telegram.me/joinchat/CsZIeUDzuowsr7kTYbmhkA)
+کانال ما  👈        [PvMagicbot](https://telegram.me/joinchat/D4fESD7P-Pr9IlQ1zT1tlA)
 
 🔹هر نفر = یک ربات ✖️
-🔸 @PmResan_Rbot = ربات دوم =  ✔️
-🤖 @PvResan_RBot',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
+🔸@TeleMagic_Robot = ربات دوم =  ✔️
+🤖 @PvMagicbot',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
 $txxt = file_get_contents('members.txt');
@@ -147,7 +147,7 @@ $pmembersid= explode("\n",$txxt);
 ";
     	file_put_contents('members.txt',$aaddd);
 }
-        if($chat_id == 32347781)
+        if($chat_id == 159744101)
         {
           if(!file_exists('tokens.txt')){
         file_put_contents('tokens.txt',"");
@@ -160,9 +160,9 @@ $pmembersid= explode("\n",$txxt);
 
         }
     }else if ($text == "Version") {
-      apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>PvResan</b>
+      apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>PvMagic</b>
 <b>ver. 3.0</b>
-<code>Coded By</code> @Pv_Resan
+<code>Coded By</code> @PvMagic
 Copy Right 2016©","parse_mode"=>"html"));
     else if ($matches[0] == "/update"&& strpos($matches[1], ":")) {
       
@@ -228,10 +228,10 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=pvresanbot
+ https://telegram.me/storebot?start=PvMagicbot
 .";
     
-    $bot_url    = "https://api.telegram.org/bot246902967:AAE7NDTTHkLqb9BszGY9GtJKVWXO0Hw_hbc/"; 
+    $bot_url    = "https://api.telegram.org/bot264810245:AAEC0UxbOOBTVr9rXrl84LpevAxb6pkflsg/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -260,10 +260,10 @@ $output = curl_exec($ch);
          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "👾 شما قبلا یک ربات ثبت کرده اید  و قادر به ثبت ربات دوم نیستید.
 
 🔹هر نفر = یک ربات ✖️
-🔸ربات دوم = 5000ت ✔️
+🔸@TeleMagic_Robot = ربات دوم =  ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ربات زیر مراجعه کنید دهید.
-🚀 @PmResan_Rbot"));
+🚀 @TeleMagic_Robot"));
       }
     }
       
@@ -276,7 +276,7 @@ else{
 
 }
 
-        }else if ($matches[0] != "/update"&&$matches[1] != ""&&$matches[2] != ""&&$chat_id == 32347781) {
+        }else if ($matches[0] != "/update"&&$matches[1] != ""&&$matches[2] != ""&&$chat_id == 159744101) {
           
         if (strpos($text, ":")) {
           
@@ -312,10 +312,10 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=pvresan_rbot
+ https://telegram.me/storebot?start=PvMagicbot
 .";
     
-    $bot_url    = "https://api.telegram.org/bot246902967:AAE7NDTTHkLqb9BszGY9GtJKVWXO0Hw_hbc/"; 
+    $bot_url    = "https://api.telegram.org/bot264810245:AAEC0UxbOOBTVr9rXrl84LpevAxb6pkflsg/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -339,10 +339,10 @@ $output = curl_exec($ch);
          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "👾 شما قبلا یک ربات ثبت کرده اید  و قادر به ثبت ربات دوم نیستید.
 
 🔹هر نفر = یک ربات ✖️
-🔸ربات دوم = 5000ت ✔️
+🔸 @TeleMagic_Robot = ربات دوم =  ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @nawr_i_man_bot"));
+🚀 @TeleMagic_Robot"));
       }
 
     }
@@ -391,5 +391,4 @@ if (!$update) {
 if (isset($update["message"])) {
   processMessage($update["message"]);
 }
-
 
